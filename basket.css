@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(7, 7, 56);
+    color: white;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; */
+    text-align: center;
+}
+.dad{
+    display: flex;
+    justify-content: space-around;
+
+}
+.brother{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.brother_a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    max-height: 150px;
+    text-align: center;
+    /* background-color: rgb(214, 55, 55); */
+   
+}
+.home-tittle{
+    /* background-color: blue; */
+    font-size: 30px;
+
+
+}
+#count-el{
+    height: 100px;
+    text-align: center;
+    width: 150px;
+    background-color: black;
+    font-size: 100px;
+    margin-top: -25px;
+    /* margin-bottom: 15px; */
+    padding-bottom: 10px;
+    color: rgb(94, 1, 1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#count-el2{
+    height: 100px;
+    text-align: center;
+    width: 150px;
+    background-color: black;
+    font-size: 100px;
+    margin-top: -25px;
+    /* margin-bottom: 1px; */
+    padding-bottom: 10px;
+    color: rgb(94, 1, 1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#brother_b{
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+button{
+    padding: 12px;
+}
